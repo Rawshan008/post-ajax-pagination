@@ -87,3 +87,31 @@
         transform: rotate(360deg);
     }
 }
+.pf-post-pagination {
+    text-align: center;
+}
+.pf-post-pagination button {
+    background: #ddd;
+    border: 0px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.pf-post-filter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pf-post-filter ul li {
+    margin: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pf-post-filter ul li.active {
+    background: #ddd;
+}
